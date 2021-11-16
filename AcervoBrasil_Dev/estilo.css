@@ -22,7 +22,7 @@ nav{
     text-align: center;
 }
 section{
-    background: white ;
+    background: rgb(255, 255, 255) ;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -34,7 +34,7 @@ footer{
     text-align: center;
     font-style: italic;
 }
-#menuh ul{
+nav#menuh ul{
     list-style-type: none;
     padding: 0%;
     background-color: rgba(2, 2, 2, 0.815);
@@ -43,10 +43,10 @@ footer{
 
 }
 
-#menuh ul li{
+nav#menuh ul li{
     display: inline;
 }
-#menuh ul li a{
+nav#menuh ul li a{
     color: #fff;
     padding: 15px;
     display: inline-block;
@@ -54,11 +54,18 @@ footer{
     transition: background .4s;
     
 }
-#menuh ul li a:hover{
+nav#menuh ul li a:hover{
     background-color: #ffffffd2;
     color: rgba(2, 2, 2, 0.815);
     padding: 15px;
     display: inline-block;
     text-decoration: none;
     
+}
+section#menu-op ul li {
+    display: inline-block;
+    grid-template-columns: ;
+
+   
+     
 }
