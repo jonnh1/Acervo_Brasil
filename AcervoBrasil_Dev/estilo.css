@@ -21,7 +21,7 @@ header{
 nav{
     text-align: center;
 }
-section{
+section#menu-op{
     background: rgb(255, 255, 255) ;
     border-radius: 10px;
     padding: 25px;
@@ -75,5 +75,49 @@ section#menu-op ul li  {
 section#menu-op a{
     text-decoration: none;
 }
+
+.nav_tabs{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.nav_tabs ul{
+    list-style: none;
+}
+.nav_tabs ul li{
+    float: left;
+}
+.nav_tabs label{
+    width: 120px;
+    padding: 25px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    }
+.rd_tabs:checked ~ label{
+    background-color: #e54e43;
+}
+.rd_tabs{
+    display: none;
+}
+.content{
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    height: 320px;
+    width: 600px;
+    left: 0;
+}
+.rd_tabs:checked ~ .content{
+    display: block;
+}
+
+
 
 
