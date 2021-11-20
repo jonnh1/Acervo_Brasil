@@ -14,8 +14,10 @@ body{
 
 }
 header{
+    margin-top: 10px;
     color: white;
     text-align: center;
+    
 
 }
 nav{
@@ -33,6 +35,7 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+    height: auto;
 }
 nav#menuh ul{
     list-style-type: none;
@@ -40,10 +43,7 @@ nav#menuh ul{
     background-color: rgba(2, 2, 2, 0.815);
     max-width:600px;
     border-radius: 30px;
-    margin: 20px auto 30px;
-
-    
-
+    margin: 20px auto 30px; 
 }
 
 nav#menuh ul li{
@@ -65,21 +65,21 @@ nav#menuh ul li a:hover{
     text-decoration: none;
     
 }
-section#menu-op ul li  {
+article#menu-op ul li  {
     display: inline-block;
     text-align: center;
     padding: 5px;
-    width: 120px;  
+    width: 140px;  
     margin: 5px;     
 }
-section#menu-op a{
+article#menu-op a{
     text-decoration: none;
 }
 
 .nav_tabs{
     width: 600px;
-    height: 400px;
-    margin: 100px auto;
+    height: 670px;
+    margin: 50px auto;
     position: relative;
     background-color: #fff;
     border-radius: 10px;
@@ -107,10 +107,10 @@ section#menu-op a{
 }
 .content{
     border-top: 5px solid #e54e43;
-    background-color: #fff;
+    /*background-color: #fff;*/
     display: none;
     position: absolute;
-    height: 320px;
+    height: 570px;
     width: 600px;
     left: 0;
 }
