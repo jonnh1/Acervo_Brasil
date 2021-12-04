@@ -93,6 +93,7 @@ article#menu-op a{
 .nav_tabs label{
     width: 120px;
     padding: 25px;
+    height: 100px;/*tamanho das abas cinzas*/
     background-color: #363b48;
     display: block;
     color: #fff;
@@ -103,7 +104,7 @@ article#menu-op a{
     background-color: #e54e43;
 }
 .rd_tabs{
-    display: none;
+    display: none;  
 }
 .content{
     border-top: 5px solid #e54e43;
@@ -117,7 +118,3 @@ article#menu-op a{
 .rd_tabs:checked ~ .content{
     display: block;
 }
-
-
-
-
